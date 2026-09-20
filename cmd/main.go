@@ -30,7 +30,7 @@ func main() {
 		Logger: logger.Default.LogMode(logger.Info),
 	})
 	if err != nil {
-		log.Fatalf("failed to connectt database: %v", err)
+		log.Fatalf("failed to connect database: %v", err)
 	}
 
 	if err := db.AutoMigrate(&repository.WalletGORM{}); err != nil {
