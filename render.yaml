@@ -15,6 +15,7 @@ services:
         fromDatabase:
           name: wallet-db
           property: connectionString
+    plan: free
 
 databases:
   - name: wallet-db
