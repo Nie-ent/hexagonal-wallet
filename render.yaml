@@ -19,5 +19,4 @@ services:
 databases:
   - name: wallet-db
     databaseName: walletdb
-    user: postgres
     plan: free
